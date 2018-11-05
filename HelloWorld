@@ -1,6 +1,15 @@
-main()
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
 {
+  string version = "1.0.1";
   
-  cout<< "<Hello world"<<endl;
+  cout << "<Hello world"<<endl;
+  cout << "Realized by BernardiMarco98"<<endl;
+  cout << "Version Number : " <<version<<endl;
+  
+  return 0;
 
 }
