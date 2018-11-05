@@ -4,11 +4,14 @@ using namespace std;
 
 int main()
 {
-  string version = "1.0.1";
+  string version = "1.1.0";
+  string nome;
   
-  cout << "<Hello world"<<endl;
-  cout << "Realized by BernardiMarco98"<<endl;
-  cout << "Version Number : " <<version<<endl;
+  cout <<"Inserire il proprio nome e premere INVIO"<<endl;
+  cin >>nome;
+  cout << "<Ciao "<<nome<<"!"<<endl;
+  cout << "Realizzato da BernardiMarco98"<<endl;
+  cout << "Numero versione : " <<version<<endl;
   
   return 0;
 
