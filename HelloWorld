@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-  string version = "1.0.1";
+  string version = "1.1.0";
   string nome;
   
   cout <<"Inserire il proprio nome e premere INVIO"<<endl;
